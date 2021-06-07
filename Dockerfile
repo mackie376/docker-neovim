@@ -71,6 +71,7 @@ ENV SHELL=/bin/bash \
 
 RUN \
       echo 'export PATH=/opt/nvim/bin:${HOME}/.yarn/bin:$PATH' >> ~/.bashrc && \
+      yarn global add eslint_d prettier typescript-language-server diagnostic-languageserver stylelint-lsp tree-sitter-cli && \
       /opt/nvim/bin/nvim +qa
 
 ENTRYPOINT ["/bin/bash"]

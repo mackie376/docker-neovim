@@ -1,0 +1,11 @@
+{
+  "Signature": {
+    "prefix": [
+      "sign"
+    ],
+    "description": "Signature",
+    "body": [
+      "Takashi Makimoto <mackie@beehive-dev.com>"
+    ]
+  }
+}

@@ -72,7 +72,7 @@ keymap('n', '[git]l', '<cmd>Telescope git_commits<cr>')
 keymap('n', '[git]m', '<cmd>lua require("gitsigns").blame_line({ full = true })<cr>')
 keymap('n', '[git]n', '<cmd>Gitsigns next_hunk<cr>zz')
 keymap('n', '[git]p', '<cmd>Gitsigns prev_hunk<cr>zz')
-keymap('n', '[git]s', '<cmd>Neogit<cr>')
+keymap('n', '[git]s', '<cmd>Git<cr>')
 keymap('n', '[git]v', '<cmd>Gitsigns preview_hunk<cr>')
 
 -- lsp

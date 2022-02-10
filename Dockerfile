@@ -109,6 +109,6 @@ RUN \
 
 COPY --chown="${USER}:${GROUP}" "${PWD}/conf.d/zsh/.zshenv" "/home/${USER}/.zshenv"
 COPY --chown="${USER}:${GROUP}" "${PWD}/conf.d/zsh" "/home/${USER}/.config/zsh"
-COPY --chown="${USER}:${GROUP}" "${PWD}/conf.d/nvim" "/home/${USER}/.config/nvim"
+COPY --chown="${USER}:${GROUP}" "${PWD}/conf.d/neovim" "/home/${USER}/.config/nvim"
 
 ENTRYPOINT ["/usr/local/bin/entrypoint.zsh"]

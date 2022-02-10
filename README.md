@@ -113,7 +113,7 @@ git run -it --name neovim -v "${PWD}/user-config.zsh:/home/user/user-config.zsh"
 
 ### Git 制御
 
-- [neogit](https://github.com/TimUntersberger/neogit)
+- [fugitive](https://github.com/tpope/vim-fugitive)
 - [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
 
 ### ツール起動

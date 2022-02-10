@@ -104,7 +104,7 @@ ENV \
   LANG="${LANG}"
 
 RUN \
-  mkdir -p .config .cache .local/share worspace && \
+  mkdir -p .config .cache .local/share workspace && \
   git clone --recursive https://github.com/sorin-ionescu/prezto.git .config/prezto
 
 COPY --chown="${USER}:${GROUP}" "${PWD}/conf.d/zsh/.zshenv" "/home/${USER}/.zshenv"

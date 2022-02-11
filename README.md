@@ -136,6 +136,7 @@ git run -it --name neovim -v "${PWD}/user-config.zsh:/home/user/user-config.zsh"
 
 - [nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer)
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [trouble.nvim](http://github.com/folke/trouble.nvim)
 
 ### Telescope
 

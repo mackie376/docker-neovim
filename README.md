@@ -4,7 +4,7 @@ Docker コンテナ内で動作する [neovim](https://neovim.io) です。
 
 ## ベースイメージ
 
-- node:16.13.2-bullseye-slim
+- node:16.14.0-bullseye-slim
 
 ## インストールされている主なツール類
 

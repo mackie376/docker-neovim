@@ -37,7 +37,7 @@ RUN \
 
 ## -------------------------------------------------------------------------
 
-FROM node:16.13.2-bullseye-slim
+FROM node:16.14.0-bullseye-slim
 LABEL maintainer="Takashi Makimoto <mackie@beehive-dev.com>"
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
